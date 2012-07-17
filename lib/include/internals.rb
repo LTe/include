@@ -11,7 +11,7 @@ module RubyInternal
 
   FL_USHIFT     = 12
   FL_USER0      = 1 << (FL_USHIFT + 0)
-  FL_SINGLETON = FL_USER0
+  FL_SINGLETON  = FL_USER0
 
   typealias "VALUE", "unsigned long"
   typealias "ID", "unsigned long"

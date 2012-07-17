@@ -8,4 +8,5 @@ class Class
     o.klass = Module.internal_ptr.to_i
     return result
   end
+  alias :to_m :to_module
 end

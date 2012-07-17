@@ -1,6 +1,8 @@
 # Include
 
-TODO: Write a gem description
+Include a class to class
+
+[![BuildStatus](http://travis-ci.org/LTe/include.png)](http://github.com/LTe/include)
 
 ## Installation
 
@@ -18,7 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Include class to the class
+
+```ruby
+require 'include'
+
+class MyClass
+  include Array.to_module
+end
+
+MyClass.new # => []
+```
 
 ## Contributing
 
