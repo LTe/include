@@ -2,7 +2,7 @@
 
 Include a class to class
 
-[![BuildStatus](http://travis-ci.org/LTe/include.png)](http://github.com/LTe/include)
+[![BuildStatus](https://travis-ci.org/LTe/include.png)](http://github.com/LTe/include)
 
 ## Installation
 
